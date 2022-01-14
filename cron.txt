@@ -1,0 +1,6 @@
+XDG_RUNTIME_DIR="/run/user/1000"
+# this is needed to run pactl which the script calls
+# 1000 is from running id <username>. Other usernames will be different
+
+# m h  dom mon dow   command
+@reboot ~/Scripts/switchBTProfile.sh >/dev/null 2>&1
