@@ -14,5 +14,5 @@ This shell script monitors if the bluetooth headset is connected. When it detect
 
 As an option, this script can be added to cron (example provided in cron.txt) to launch during startup
 
-This is a quick and dirty way of automating the audio profile switching task. If anyone knows how to make this better or if an elegant solution already exists, do let me know.
+This is a quick and dirty way of automating the audio profile switching task. I have commented the scripts on where changes are necessary to make it work for other use cases. If anyone knows how to make this better or if an elegant solution already exists, do let me know.
 
